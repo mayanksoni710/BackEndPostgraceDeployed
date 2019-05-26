@@ -106,7 +106,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("var dbName = 'inventory_management';\nvar port = '5432';\nvar postgresURI = \"postgres://postgres:MyNewPassword@localhost:\".concat(port, \"/\").concat(dbName);\nvar dbConfig = {\n  conStr: postgresURI,\n  port: port\n};\nmodule.exports = dbConfig;\n\n//# sourceURL=webpack:///./src/database/config.js?");
+eval("// const dbName = 'inventory_management'\nvar port = '5432'; // const postgresURI = `postgres://postgres:MyNewPassword@localhost:${port}/${dbName}`\n\nvar postgresURI = 'postgres://scxbffeqlnmupm:6b858c820177133f9f70fdab9260b7afbeaa9066930b14c3f73d4d3f85444c37@ec2-184-72-237-95.compute-1.amazonaws.com:5432/d525sgqqn2jlca';\nvar dbConfig = {\n  conStr: postgresURI,\n  port: port\n};\nmodule.exports = dbConfig;\n\n//# sourceURL=webpack:///./src/database/config.js?");
 
 /***/ }),
 
